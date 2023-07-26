@@ -140,7 +140,6 @@ public class EstateDAO implements GenericDAO<Estate> {
         estate.setName(rs.getString("name"));
         estate.setPublicationURL(rs.getString("publicationURL"));
         estate.setLocationURL(rs.getString("locationURL"));
-        estate.setDate(rs.getDate("date"));
         estate.setRooms(rs.getInt("rooms"));
         estate.setBuildingSize(rs.getInt("buildingSize"));
         estate.setPrice(rs.getInt("price"));
